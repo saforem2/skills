@@ -17,6 +17,7 @@ To update: `/update-custom-skills` or `git -C ~/.claude/skills pull`
 | [`summarize-events`](summarize-events/) | Summarize Outlook calendar events and GitHub commit activity for any date range. Supports `--last`/`--next` day\|week\|month\|year and custom ranges. |
 | [`alcf_run`](alcf_run/) | Submit PBS jobs and run commands on ALCF compute nodes (Sunspot, Aurora, Polaris). |
 | [`torchtitan-ezpz-smoke-test`](torchtitan-ezpz-smoke-test/) | Run smoke tests for torchtitan-ezpz experiments on ALCF compute nodes and write benchmark reports. |
+| [`sync-claude-data`](sync-claude-data/) | Sync Claude Code usage data from remote machines via rsync for aggregated insights. |
 | [`update-custom-skills`](update-custom-skills/) | Pull the latest skills from this repo. |
 
 ## Configuration
@@ -24,3 +25,4 @@ To update: `/update-custom-skills` or `git -C ~/.claude/skills pull`
 Some skills require local configuration (not tracked by git):
 
 - `summarize-events/.env` — Outlook calendar ICS/HTML URLs
+- `sync-claude-data/scripts/sync-claude-data.sh` — Edit `HOSTS` array with your SSH hostnames
