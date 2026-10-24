@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "imports": [
+    {
+      "name": "falsification-first-debugging",
+      "provenance": "Local Hermes curator-created skill; existing attribution and declared MIT license retained.",
+      "upstream_revision": null,
+      "source_hashes": {
+        "SKILL.md": "6e771d938b8ce46af41eeea9c70045a610435684a6a858e455ed92c1d1a39a52"
+      },
+      "changes": []
+    },
+    {
+      "name": "minimal-dependency-defect-probes",
+      "provenance": "Local Hermes curator-created skill; existing attribution and declared MIT license retained.",
+      "upstream_revision": null,
+      "source_hashes": {
+        "SKILL.md": "f0cd2bed48406b0d9921760fdb83746bd45fd3630eb03c693afee6c5668dce58"
+      },
+      "changes": []
+    },
+    {
+      "name": "git-worktree-preservation",
+      "provenance": "Local Hermes curator-created skill; existing attribution and declared MIT license retained.",
+      "upstream_revision": null,
+      "source_hashes": {
+        "SKILL.md": "ffc47014f63fff9a08d0dbbd3af18641aa375079c8cb6532b9974a4c3010d998"
+      },
+      "changes": []
+    },
+    {
+      "name": "validation-check-authoring",
+      "provenance": "Local Hermes curator-created skill; existing attribution and declared MIT license retained.",
+      "upstream_revision": null,
+      "source_hashes": {
+        "SKILL.md": "7934e1f3e229bc4c490f4b052b0e1ead246f41dc25d7017d3cdda960266a9805",
+        "references/batch-scheduler-drivers.md": "02fa748873a001b1660b8fd3ba28bbd13244d7c43d985dceb877248bf146c75c"
+      },
+      "changes": []
+    },
+    {
+      "name": "generated-file-merge-conflicts",
+      "provenance": "Local Hermes curator-created skill; existing attribution and declared MIT license retained.",
+      "upstream_revision": null,
+      "source_hashes": {
+        "SKILL.md": "c24fda592b92a47375ec81369064152dfee4280efd7664dba82ea3a2c9ed18cf",
+        "references/git-merge-drivers.md": "fb161f968362d28177763b77b3baf4580c52cbc8dead7be7ac2c428f8aaf2eaa"
+      },
+      "changes": []
+    },
+    {
+      "name": "scientific-figure-typography",
+      "provenance": "Local Hermes curator-created skill; existing attribution and declared MIT license retained.",
+      "upstream_revision": null,
+      "source_hashes": {
+        "SKILL.md": "d291acae6b005f4e61b006c281aa380aaddbf1ce22af161173a708e180e1deab",
+        "references/architecture-diagram-layout.md": "b0048d0c8ae525487cc1359b4bd33a1624da2338ab9ad300caf6a08ca69b64e7",
+        "references/chart-style-accessibility.md": "b29cdcf4917efdd25e88ff2560ea56d3361017f5896ddf5c388c1dd78e71446b",
+        "references/state-diagram-layout.md": "b78109b7725b2d52e218a890bda8af95f9f03f384643369040262d36caff1997"
+      },
+      "changes": [
+        "Generalized personal house-style wording to a project example."
+      ]
+    }
+  ]
+}
